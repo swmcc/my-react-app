@@ -2,14 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Button from 'react-bootstrap/Button'
+import {Department} from './components/Department'
+import {Employee} from './components/Employee' 
+import {Home} from './components/Home'
 
 function App() {
   return (
-    <div className="App">
-      <h2>Hello World!!</h2>
-
-      <Button variant="primary">bootstrap button</Button>
+    <div className="container">
+      <Employee />
     </div>
   );
 }
